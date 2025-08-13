@@ -1,0 +1,5 @@
+{
+  "name": "Intelligent Document Q&A",
+  "description": "An intelligent query-retrieval system that allows users to upload document text and ask natural language questions to receive AI-powered answers based on the document's content.",
+  "requestFramePermissions": []
+}
