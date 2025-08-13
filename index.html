@@ -5,7 +5,7 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Intelligent Document Q&A</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Tailwind will be added via npm and built with PostCSS. -->
     <style>
       /* Custom scrollbar for webkit browsers */
       ::-webkit-scrollbar {
@@ -22,21 +22,10 @@
         background: #6b7280; /* bg-gray-500 */
       }
     </style>
-  <script type="importmap">
-{
-  "imports": {
-    "react/": "https://esm.sh/react@^19.1.1/",
-    "react": "https://esm.sh/react@^19.1.1",
-    "react-dom/": "https://esm.sh/react-dom@^19.1.1/",
-    "@google/genai": "https://esm.sh/@google/genai@^1.12.0",
-    "pdfjs-dist": "https://esm.sh/pdfjs-dist@4.4.168"
-  }
-}
-</script>
 <link rel="stylesheet" href="/index.css">
 </head>
   <body class="bg-gray-900">
     <div id="root"></div>
-    <script type="module" src="/index.tsx"></script>
+  <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
